@@ -2,7 +2,7 @@ import ButtonBlue, { ButtonTransparent } from "../components/Button";
 
 const MainHeader = () => {
   return (
-    <section className="pt-10 lg:px-32">
+    <section className="pt-24 md:pt-40 lg:px-32">
       <div className="lg:flex flex-row-reverse items-start">
         <div className="px-12 lg:px-0 md:w-[50%] lg:w-[40%] md:mx-auto flex-shrink-0">
           <div className="relative">

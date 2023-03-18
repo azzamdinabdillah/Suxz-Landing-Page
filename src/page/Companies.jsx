@@ -8,7 +8,7 @@ const Companies = () => {
                 <MainTextCenter text1={"Companies That Recruit Our Graduates"} text2={"Our graduates have worked in more than 400 companies around the World"} />
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-8 mt-5 md:mt-10 lg:px-32 lg:mt-14">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-8 mt-5 md:mt-10 lg:px-32 md:px-20 lg:mt-14">
                     <img src="./images/github.png" alt="" className="scale-90" />
                     <img src="./images/microsoft.png" alt="" className="scale-90" />
                     <img src="./images/redis.png" alt="" className="scale-90" />

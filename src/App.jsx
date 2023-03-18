@@ -8,17 +8,21 @@ import AboutUs from './page/AboutUs'
 import Companies from './page/Companies'
 import Testimonial from './page/Testimonial'
 import JoinUs from './page/JoinUs'
+import Footer from './page/Footer'
+import Navbar from './components/Navbar'
 
 function App() {
   
   return (
-    <div className="App pb-40">
+    <div className="App pb-20">
+      <Navbar/>
       <MainHeader/>
       <LearningSection/>
       <AboutUs/>
       <Companies/>
       <Testimonial/>
       <JoinUs/>
+      <Footer/>
     </div>
   )
 }

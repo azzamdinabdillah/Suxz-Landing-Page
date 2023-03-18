@@ -41,17 +41,17 @@ const AboutUs = () => {
           />
 
           <div className="mt-5 lg:mt-8 flex flex-col gap-3">
-            <div className="flex items-center gap-5 font-semibold text-text-dark text-base">
-              <img src="./images/check.png" alt="" className="scale-90" />
-              <p className="lg:text-[15px]">Study and produce creation to get a job</p>
+            <div className="flex justify-start items-center gap-5 font-semibold text-text-dark text-base">
+              <img src="./images/check.png" alt="" className="md:scale-90 scale-75" />
+              <p className="lg:text-[15px] text-sm">Study and produce creation to get a job</p>
             </div>
             <div className="flex items-center gap-5 font-semibold text-text-dark text-base">
-              <img src="./images/check.png" alt="" className="scale-90" />
-              <p className="lg:text-[15px]">Up to date material and created by expert creators</p>
+              <img src="./images/check.png" alt="" className="md:scale-90 scale-75" />
+              <p className="lg:text-[15px] text-sm">Up to date material and created by expert creators</p>
             </div>
             <div className="flex items-center gap-5 font-semibold text-text-dark text-base">
-              <img src="./images/check.png" alt="" className="scale-90" />
-              <p className="lg:text-[15px]">Complete classes and projects and get a certificate from us</p>
+              <img src="./images/check.png" alt="" className="md:scale-90 scale-75" />
+              <p className="lg:text-[15px] text-sm">Complete classes and projects and get a certificate from us</p>
             </div>
           </div>
         </div>
