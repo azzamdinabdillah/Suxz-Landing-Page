@@ -14,4 +14,12 @@ export const ButtonTransparent = (props) => {
     )
 }
 
+export const ButtonGhost = (props) => {
+    return (
+        <button className="py-3 lg:py-4 px-6 md:px-10 mt-5 rounded-lg text-white font-bold">
+            {props.name}
+        </button>
+    )
+}
+
 export default ButtonBlue;
